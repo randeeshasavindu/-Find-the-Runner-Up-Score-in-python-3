@@ -1,0 +1,12 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    m=sorted(arr)
+    a=m[-1]
+    for i in range(len(m)):
+        if m[i]==a:
+           print(m[i-1])
+           break    
+    
+    
+    
